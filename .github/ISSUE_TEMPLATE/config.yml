@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Reportar una vulnerabilidad de seguridad
+    url: https://github.com/IvanLizana/DriverPLC/security/advisories/new
+    about: Los problemas de seguridad se reportan en privado, no en issues públicos.
+  - name: Problemas frecuentes
+    url: https://github.com/IvanLizana/DriverPLC/blob/main/docs/PROBLEMAS.md
+    about: Revisa la guía de problemas (síntoma, causa y qué hacer) antes de reportar.
