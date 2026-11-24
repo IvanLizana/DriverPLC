@@ -1,7 +1,7 @@
 # Política de seguridad
 
 ## Versiones con soporte
-Solo la última versión publicada en [Releases](../../releases) recibe correcciones. Antes de reportar, comprueba que el problema sigue en esa versión.
+Solo la última versión publicada en [Releases](../../releases/latest) recibe correcciones. Antes de reportar, comprueba que el problema sigue en esa versión.
 
 ## Cómo reportar una vulnerabilidad
 **No abras un issue público.** Usa el reporte privado de GitHub:

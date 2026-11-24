@@ -26,7 +26,7 @@
   <h3>Abre y cierra el techo corredizo y maneja la energía del observatorio desde N.I.N.A.</h3>
   <p><em>Un driver ASCOM Alpaca que habla por Modbus TCP con tu PLC Siemens LOGO! y confirma cada orden leyendo el PLC.</em></p>
 
-  <a href="https://github.com/IvanLizana/DriverPLC/releases">
+  <a href="https://github.com/IvanLizana/DriverPLC/releases/latest">
     <img src="https://img.shields.io/badge/DESCARGAR_INSTALADOR_v1.0.0-Clic_Aquí-success?style=for-the-badge&logo=windows&logoColor=white" alt="Descargar" />
   </a>
   &nbsp;
@@ -94,7 +94,7 @@ Lista completa: [docs/REQUISITOS.md](docs/REQUISITOS.md).
 
 ## 📥 Instrucciones de Instalación y Uso
 
-1.  **Descargar:** ve a **[Releases (Lanzamientos)](../../releases)** y baja `Setup-DriverPLC-1.0.0.exe` y `SHA256SUMS.txt`.
+1.  **Descargar:** ve a **[Releases (Lanzamientos)](../../releases/latest)** y baja `Setup-DriverPLC-1.0.0.exe` y `SHA256SUMS.txt`.
 2.  **Comprobar:** en PowerShell, en la carpeta de la descarga:
     ```powershell
     Get-FileHash .\Setup-DriverPLC-1.0.0.exe -Algorithm SHA256
@@ -137,7 +137,7 @@ Toda la documentación está en [docs/](docs/LEEME.md), empezando por [docs/INIC
   <h3>Open and close your roll-off roof and switch your observatory's power from N.I.N.A.</h3>
   <p><em>An ASCOM Alpaca driver that talks Modbus TCP to your Siemens LOGO! PLC and confirms every command by reading the PLC back.</em></p>
 
-  <a href="https://github.com/IvanLizana/DriverPLC/releases">
+  <a href="https://github.com/IvanLizana/DriverPLC/releases/latest">
     <img src="https://img.shields.io/badge/DOWNLOAD_INSTALLER_v1.0.0-Click_Here-success?style=for-the-badge&logo=windows&logoColor=white" alt="Download" />
   </a>
   &nbsp;
@@ -205,7 +205,7 @@ It exposes a **Dome** device ("Driver PLC Techo") and one or more **Switch** dev
 
 ## 📥 Installation & Usage Instructions
 
-1.  **Download:** go to **[Releases](../../releases)** and download `Setup-DriverPLC-1.0.0.exe` and `SHA256SUMS.txt`.
+1.  **Download:** go to **[Releases](../../releases/latest)** and download `Setup-DriverPLC-1.0.0.exe` and `SHA256SUMS.txt`.
 2.  **Verify:** in PowerShell, in the download folder, run `Get-FileHash .\Setup-DriverPLC-1.0.0.exe -Algorithm SHA256` and compare the `Hash` with `SHA256SUMS.txt`. If it does not match, **do not run it**.
 3.  **Install:** run it as administrator and follow the wizard ([docs/INSTALACION.md](docs/INSTALACION.md)).
 4.  **Simulate:** open `http://localhost:11111/setup` and test with N.I.N.A. in simulation mode ([docs/SIMULACION.md](docs/SIMULACION.md)).
